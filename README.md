@@ -1,5 +1,5 @@
-# Check Bundler version
-This step tries to install in the machine the same bundler version as the Gemfile
+# Install Java13 - Mac OS
+This step sets the pre-installed OpenJDK 13 as the system JVM
 
 
 ## How to use this Step

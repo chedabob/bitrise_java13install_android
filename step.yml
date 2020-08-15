@@ -1,29 +1,11 @@
-title: "Install specific bundler version"
-summary: This step allows you to uninstall the system bundler version, and match the one in your Gemfile.
-description: This step allows you to uninstall the system bundler version, and match the one in your Gemfile..
-website: https://github.com/FutureWorkshops/bitrise-step-install-bundler
-source_code_url: https://github.com/FutureWorkshops/bitrise-step-install-bundler
-host_os_tags:
-  - osx-10.10
-  - osx-10.9
+title: "Install OpenJDK 13 - Android (Linux)"
+summary: This step installs OpenJDK13
+description: This step installs OpenJDK13
+website: https://github.com/chedabob/bitrise_java13install_android
+source_code_url: https://github.com/chedabob/bitrise_java13install_android
 project_type_tags:
-  - ios
-  - xamarin
-type_tags:
-  - xcode
+  - android
 is_requires_admin_user: true
 is_always_run: false
 is_skippable: false
-deps:
-run_if: ""
-inputs:
-  - gemfilelock_dir: './'
-    opts:
-      title: "Gemfile lock directory"
-      summary: "Directory where the Gemfile lock is located"
-      description: "Directory where the Gemfile lock is located"
-      is_expand: true
-      is_required: true
-
-outputs:
- 
+run_if: "" 

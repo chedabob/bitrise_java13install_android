@@ -1,6 +1,5 @@
-# Install Java13 - Mac OS
-This step sets the pre-installed OpenJDK 13 as the system JVM
-
+# Install OpenJDK 13
+This step installs OpenJDK13
 
 ## How to use this Step
 
